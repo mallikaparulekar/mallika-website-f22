@@ -135,10 +135,12 @@ button.btn, input.btn {
     width: 100%;
   }
   h1 {
-    font-size: 48px;
+    font-size: 50px;
+    margin: 0em 0 0.5em 0;
   }
   p {
-    margin: 2em 0 4em 0;
+    margin: 1em 0 0em 0;
+    font-size: 18px;
   }
   .hero-buttons {
     margin: 0 auto;
@@ -324,7 +326,7 @@ button.btn, input.btn {
     font-weight: 600;
     color: #9eb1bd;
     margin: 0;
-    padding: 10px 0;
+    padding: 5px 0;
     @include bp-xsmall {
       text-align: center;
     }
