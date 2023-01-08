@@ -17,9 +17,9 @@ title: "mallika parulekar "
 email: 'mallika.parulekar@berkeley.edu'
 description: true
 
-baseurl: "mallika-website-f22/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 #change this!!
-url: "https://mallikaparulekar.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://mallikaparulekar.github.io/mallika-website-f22/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'mallikathinks'
 github_username: 'mallikaparulekar'
 linkedin_username: 'mallikaparulekar'
