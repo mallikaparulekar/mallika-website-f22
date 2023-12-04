@@ -64,6 +64,11 @@ img {
   width: 100%;
 }
 
+.row {
+  margin-top: 10px; /* This adds 20px of space below each row */
+  margin-left: 0px;
+}
+
 button.btn, input.btn {
   padding: 12px 35px;
   margin: 2em 0.5em;
@@ -140,7 +145,7 @@ button.btn, input.btn {
   }
   p {
     margin: 1em 0 0em 0;
-    font-size: 18px;
+    font-size: 15px;
   }
   .hero-buttons {
     margin: 0 auto;
