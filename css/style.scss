@@ -65,8 +65,8 @@ img {
 }
 
 .row {
-  margin-top: 10px; /* This adds 20px of space below each row */
-  margin-left: 0px;
+  margin-top: 10px; 
+  margin-bottom: 30px;
 }
 
 button.btn, input.btn {
@@ -83,12 +83,21 @@ button.btn, input.btn {
     -webkit-box-shadow: 0 1px 0 #b0c5d2;
     box-shadow: 0 1px 0 #b0c5d2;
   }
-  i {
-    padding-right: 0.5em;
-  }
-  @include bp-xsmall {
-    @include horizontal-align;
-    margin-bottom: 0.5em;
+  // i {
+  //   padding-right: 0.5em;
+  // }
+  // @include bp-small {
+  //   @include horizontal-align;
+  //   margin-bottom: 0.5em;
+  // }
+  // @include bp-xsmall {
+  //   @include horizontal-align;
+  //   margin-bottom: 0.5em;
+  // }
+  @include bp-xxsmall {
+    padding: 12px 16px;
+    margin: 2em 0.4em;
+    border-radius: 100%;
   }
 }
 
@@ -117,17 +126,23 @@ button.btn, input.btn {
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .hero-container {
-  margin: 10em 0 9em 0;
-  @include bp-xsmall {
-    margin: 5em 0 5em 0;
+  margin: 10em 0 10em 0;
+  @include bp-medium {
+    margin: 5em 8em 5em 8em;
   }
   @include bp-small {
+    margin: 5em 10em 5em 10em;
+  }
+  @include bp-xsmall {
+    margin: 5em 8em 5em 8em;
+  }
+  @include bp-xxsmall {
     margin: 5em 0 5em 0;
   }
 }
 
 .hero-content {
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   display: table;
   @include bp-medium {
@@ -144,15 +159,15 @@ button.btn, input.btn {
     margin: 0em 0 0.5em 0;
   }
   p {
-    margin: 1em 0 0em 0;
+    margin: 0.8em 0 0em 0;
     font-size: 15px;
   }
   .hero-buttons {
     margin: 0 auto;
     display: table;
-    i {
-      padding-right: 0.5em;
-    }
+    // i {
+    //   padding-right: 0.5em;
+    // }
   }
 }
 
@@ -442,3 +457,11 @@ pre {
     .highlight .vg { color: #000000 } /* Name.Variable.Global */
     .highlight .vi { color: #000000 } /* Name.Variable.Instance */
     .highlight .il { color: #0000cf; font-weight: bold } /* Literal.Number.Integer.Long */
+
+/*--------------------------------------------------------------
+	6.0 Personal Modifications
+--------------------------------------------------------------*/
+
+.research-section-para {
+  font-size: 12px !important;
+}
