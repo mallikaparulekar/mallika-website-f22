@@ -137,7 +137,7 @@ button.btn, input.btn {
     margin: 5em 8em 5em 8em;
   }
   @include bp-xxsmall {
-    margin: 5em 0 5em 0;
+    margin: 5em 3em 5em 3em;
   }
 }
 
@@ -150,9 +150,27 @@ button.btn, input.btn {
   }
   @include bp-small {
     width: 100%;
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 350px;
+    }
   }
   @include bp-xsmall {
     width: 100%;
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 350px;
+    }
+  }
+  @include bp-xxsmall {
+    width: 100%;
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 350px;
+    }
   }
   h1 {
     font-size: 50px;
